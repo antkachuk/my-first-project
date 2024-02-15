@@ -1,7 +1,18 @@
 /* Common styles*/
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 ul,
 ol {
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 a {
@@ -29,13 +40,26 @@ img {
   display: block;
 }
 
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-paddings {
+  padding-top: 120px;
+  padding-bottom: 120;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background: #fff;
 }
 
-.logo {
+.logo-top {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -47,6 +71,19 @@ body {
 
 .color-black {
   color: #4d5ae5;
+}
+
+.logo-down {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.color-studio {
+  color: #f4f4fd;
 }
 
 .menu-link {
