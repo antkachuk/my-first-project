@@ -1,11 +1,12 @@
 /* Common styles*/
-h1,
+/*h1,
 h2,
 h3,
 p {
   margin-top: 0;
   margin-bottom: 0;
 }
+*/
 
 ul,
 ol {
@@ -40,7 +41,7 @@ img {
   display: block;
 }
 
-.container {
+/*.container {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
@@ -51,7 +52,7 @@ img {
 .section-paddings {
   padding-top: 120px;
   padding-bottom: 120;
-}
+}*/
 
 body {
   font-family: "Roboto", sans-serif;
@@ -163,6 +164,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  background-color: #ffffff;
 }
 .text {
   font-family: "Roboto", sans-serif;
