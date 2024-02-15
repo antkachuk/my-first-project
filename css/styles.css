@@ -66,11 +66,11 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
 .color-black {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .logo-down {
@@ -110,6 +110,20 @@ body {
 }
 .contact:hover,
 .contact:focus {
+  color: #404bbf;
+}
+
+.mail {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.mail:hover,
+.mail:focus {
   color: #404bbf;
 }
 
