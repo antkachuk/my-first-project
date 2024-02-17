@@ -22,6 +22,11 @@ a {
 }
 
 button {
+  /*min-width: 144px;*/
+  /*height: 144px;
+  display: block
+  margin right: auto
+  margin left: auto*/
   cursor: pointer;
   background: #4d5ae5;
   font-family: "Roboto", sans-serif;
@@ -30,6 +35,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  /*border: none;*/
 }
 
 button:hover,
@@ -60,6 +66,11 @@ body {
   background: #fff;
 }
 
+/*.page-header {
+display flex
+margin-right
+}*/
+
 .logo-top {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -87,7 +98,13 @@ body {
   color: #f4f4fd;
 }
 
+/*.menu {
+  display: flex;
+  column-gap: 40px;
+}*/
+
 .menu-link {
+  /*display: block;*/
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -128,10 +145,19 @@ body {
   color: #404bbf;
 }
 
-.block-1 {
+/*.container-hero {
+padding top
+padding botom
+padding left
+padding right 
+backround-color
+}*/
+
+.block-one {
+  /*padding-bottom: 60px;*/
   background: #2e2f42;
 }
-.main-title {
+.hero {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
@@ -141,7 +167,7 @@ body {
   color: #ffffff;
 }
 
-.block-3 {
+.block-three {
   background-color: #f4f4fd;
 }
 
@@ -173,6 +199,16 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+.text-team {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  background-color: #ffffff;
+}
+
 .footer {
   background-color: #2e2f42;
 }
