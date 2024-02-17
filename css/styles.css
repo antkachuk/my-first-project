@@ -1,19 +1,8 @@
 /* Common styles*/
-/*h1,
-h2,
-h3,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-*/
 
 ul,
 ol {
   list-style-type: none;
-  /*margin-top: 0;
-  margin-bottom: 0;*/
-  /*padding-left: 0;*/
 }
 
 a {
@@ -22,11 +11,6 @@ a {
 }
 
 button {
-  /*min-width: 144px;*/
-  /*height: 144px;
-  display: block
-  margin right: auto
-  margin left: auto*/
   cursor: pointer;
   background: #4d5ae5;
   font-family: "Roboto", sans-serif;
@@ -35,7 +19,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  /*border: none;*/
 }
 
 button:hover,
@@ -47,16 +30,16 @@ img {
 }
 
 /*.container {
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+   1158px;
+   15px;
+   15px;
+ 
+  
 }
 
-.section-paddings {
-  padding-top: 120px;
-  padding-bottom: 120;
+.section- {
+  : 120px;
+  : 120;
 }*/
 
 body {
@@ -66,8 +49,7 @@ body {
 }
 
 /*.page-header {
-display flex
-margin-right
+
 }*/
 
 .logo-top {
@@ -97,13 +79,7 @@ margin-right
   color: #f4f4fd;
 }
 
-/*.menu {
-  display: flex;
-  column-gap: 40px;
-}*/
-
 .menu-link {
-  /*display: block;*/
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -145,15 +121,11 @@ margin-right
 }
 
 /*.container-hero {
-padding top
-padding botom
-padding left
-padding right 
+
 backround-color
 }*/
 
 .block-one {
-  /*padding-bottom: 60px;*/
   background: #2e2f42;
 }
 .hero {
