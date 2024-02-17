@@ -171,6 +171,10 @@ backround-color
   background-color: #f4f4fd;
 }
 
+.team {
+  background-color: #ffffff;
+}
+
 .title-two {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
