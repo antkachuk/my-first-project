@@ -13,7 +13,7 @@ ol {
   list-style-type: none;
   margin-top: 0;
   margin-bottom: 0;
-  padding-left: 0;
+  /*padding-left: 0;*/
 }
 
 a {
@@ -44,7 +44,7 @@ button:focus {
 }
 
 img {
-  display: block;
+  /* display: block;*/
 }
 
 /*.container {
@@ -163,7 +163,7 @@ backround-color
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
+  /*text-align: center;*/
   color: #ffffff;
 }
 
@@ -182,7 +182,7 @@ backround-color
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  text-align: center;
+  /*text-align: center;*/
   color: #2e2f42;
 }
 
@@ -192,7 +192,7 @@ backround-color
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
+  /*text-align: center;*/
   color: #2e2f42;
   background-color: #ffffff;
 }
