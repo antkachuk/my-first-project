@@ -1,8 +1,19 @@
 /* Common styles*/
 
+p,
+h1,
+h2,
+h3,
+h4 h5,
+h6 {
+  margin: 0;
+}
+
 ul,
 ol {
   list-style-type: none;
+  padding-left: 0;
+  margin: 0;
 }
 
 a {
@@ -27,20 +38,19 @@ button:focus {
 }
 
 img {
+  display: block;
 }
 
-/*.container {
-   1158px;
-   15px;
-   15px;
- 
-  
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .section- {
-  : 120px;
-  : 120;
-}*/
+  :120px ;
+  :120 ;
+}
 
 body {
   font-family: "Roboto", sans-serif;
