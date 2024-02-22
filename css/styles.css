@@ -4,16 +4,20 @@ p,
 h1,
 h2,
 h3,
-h4 h5,
-h6 {
-  margin: 0;
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 ul,
 ol {
   list-style-type: none;
+  margin-bottom: 0;
+  margin-top: 0;
   padding-left: 0;
-  margin: 0;
 }
 
 a {
@@ -21,8 +25,25 @@ a {
   color: inherit;
 }
 
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 button {
+  min-width: 169px;
+  height: 56px;
+  border: none;
   cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -30,6 +51,11 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  display: block;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 button:hover,
@@ -37,19 +63,9 @@ button:focus {
   background: #404bbf;
 }
 
-img {
-  display: block;
-}
-
-.container {
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.section- {
-  :120px ;
-  :120 ;
+.page-navigation {
+  display: flex;
+  align-items: center;
 }
 
 body {
@@ -58,9 +74,19 @@ body {
   background: #fff;
 }
 
-/*.page-header {
+.page-header {
+  border: 1px solid #000;
+}
 
-}*/
+.header-container {
+  display: flex;
+  align-items: center;
+  /*padding-top: ;
+  padding-bottom: ;
+  padding-left: ;
+  padding-right: ;
+  */
+}
 
 .logo-top {
   font-family: "Raleway", sans-serif;
@@ -70,6 +96,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 78px;
 }
 
 .color-black {
@@ -89,6 +116,11 @@ body {
   color: #f4f4fd;
 }
 
+.menu {
+  display: flex;
+  column-gap: 40px;
+}
+
 .menu-link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -96,6 +128,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
+  display: block;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -110,12 +144,17 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-left: auto;
 }
 .contact:hover,
 .contact:focus {
   color: #404bbf;
 }
 
+.contact-list {
+  display: flex;
+  gap: 40px;
+}
 .mail {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -130,15 +169,25 @@ body {
   color: #404bbf;
 }
 
-/*.container-hero {
-
-backround-color
-}*/
-
 .block-one {
+  padding-bottom: 60px;
   background: #2e2f42;
 }
+
+.hero-container {
+  /*border: 1px solid #000;*/
+  max-width: 1440px;
+  height: 600px;
+  padding-top: 188px;
+  padding-bottom: 202px;
+  padding-left: 472px;
+  padding-right: 472px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .hero {
+  max-width: 496px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
@@ -146,14 +195,59 @@ backround-color
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  margin-bottom: 48px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.block-two {
+  padding-bottom: 120px;
+  padding-top: 60px;
+}
+
+.container-two {
+  max-height: 104px;
+}
+
+.vorteile {
+  display: flex;
+  gap: 24px;
+}
+
+.vorteile-liste {
+  width: calc((100% - 72px) / 4);
 }
 
 .block-three {
   background-color: #f4f4fd;
+  padding-bottom: 60px;
+  padding-top: 120px;
+}
+
+.team-list {
+  max-width: calc((100 - 72px) / 4);
+  height: 380px;
+  display: flex;
+  gap: 24px;
 }
 
 .team {
   background-color: #ffffff;
+}
+
+.block-four {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.pics-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.pics {
+  max-width: calc((100% - 48) / 3);
 }
 
 .title-two {
@@ -165,6 +259,17 @@ backround-color
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+.title-three-team {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  background-color: #ffffff;
 }
 
 .title-three {
@@ -173,7 +278,7 @@ backround-color
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
+
   color: #2e2f42;
   background-color: #ffffff;
 }
@@ -192,6 +297,7 @@ backround-color
   letter-spacing: 0.02em;
   color: #434455;
   background-color: #ffffff;
+  text-align: center;
 }
 
 .footer {
