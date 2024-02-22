@@ -173,16 +173,15 @@ body {
 }
 
 .block-one {
-  padding-bottom: 60px;
   background: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-container {
   /*border: 1px solid #000;*/
   max-width: 1440px;
   height: 600px;
-  padding-top: 188px;
-  padding-bottom: 188px;
   padding-left: 472px;
   padding-right: 472px;
   margin-right: auto;
@@ -300,9 +299,9 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-
   color: #2e2f42;
   background-color: #ffffff;
+  margin-bottom: 8px;
 }
 .text {
   font-family: "Roboto", sans-serif;
@@ -324,6 +323,8 @@ body {
 
 .footer {
   background-color: #2e2f42;
+  padding-bottom: 100px;
+  padding-top: 100px;
 }
 .text-footer {
   font-family: "Roboto", sans-serif;
