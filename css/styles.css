@@ -297,23 +297,30 @@ button:focus {
 }
 
 .sozial-icons {
-  width: 232px;
   height: 40px;
+}
+
+.sozial-icons-list {
   display: flex;
+  justify-content: center;
+  gap: 24px;
   margin-left: auto;
   margin-right: auto;
   align-items: center;
-  justify-content: center;
   flex-direction: row;
-  gap: 24px;
+}
+
+.sozial-icon-box {
+  width: 40px;
+  height: 40px;
 }
 
 .icon-box {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 100%;
+  height: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
 }
@@ -474,6 +481,11 @@ button:focus {
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  align-items: baseline;
+}
+
+.logo-text-footer {
+  margin-right: 120px;
 }
 
 .text-footer {
@@ -492,7 +504,6 @@ button:focus {
 }
 
 .social-media {
-  margin-left: 120px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
