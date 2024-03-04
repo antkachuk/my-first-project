@@ -572,9 +572,13 @@ button:focus {
   transform: translate(-50%, -50%) scale(1);
   width: 408px;
   min-height: 584px;
+  padding-top: 72px;
   padding-left: 24px;
   padding-right: 24px;
+  padding-bottom: 24px;
   border-radius: 4px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   background-color: #fcfcfc;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -640,7 +644,7 @@ button:focus {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
   margin-bottom: 4px;
@@ -653,11 +657,11 @@ button:focus {
 .review-form-input {
   width: 100%;
   height: 40px;
-  border: 1px solid #4d5ae5;
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  padding-left: 62px;
+  padding-left: 38px;
   background-color: transparent;
-  transition: border-color 250ms linear;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .review-form-input:focus {
@@ -668,25 +672,29 @@ button:focus {
 .review-from-field-icon {
   position: absolute;
   top: 50%;
-  left: 24px;
+  left: 16px;
   transform: translateY(-50%);
   stroke: #4d5ae5;
-  transition: stroke 250ms linear;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .review-form-input:focus + .review-form-field-icon {
-  stroke: 1px solid #4d5ae5;
+  fill: 1px solid #4d5ae5;
 }
 
 .review-form-message {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   width: 100%;
   height: 120px;
   resize: none;
   padding: 8px 16px;
+  color: rgba(46, 47, 66, 0.4);
   background-color: transparent;
-  transition: border-color 250ms linear;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .review-form-message::placeholder {
@@ -694,14 +702,19 @@ button:focus {
 }
 
 .review-form-message:focus {
-  border-color: 1px solid #4d5ae5;
-  outline: transparent;
+  border-color: #4d5ae5;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.review-form-checkbox-wrapper {
+  margin-bottom: 24px;
 }
 
 .review-form-checkbox-label {
-  font-size: 14px;
-  letter-spacing: -0.02em;
-  color: rgba(64, 64, 64, 0.6);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
 }
 
 .review-form-own-checkbox {
@@ -710,19 +723,22 @@ button:focus {
   align-items: center;
   width: 20px;
   height: 20px;
-  border: 1px solid rgba(17, 17, 17, 0.14);
-
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
   cursor: pointer;
   fill: transparent;
   margin-right: 12px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .review-form-privacy-checkbox:checked
   + .review-form-checkbox-label
   .review-form-own-checkbox {
-  background-color: #fd9222;
-  fill: #ffffff;
-  border-color: #fd9222;
+  background-color: #404bbf;
+  fill: #f4f4fd;
+  border-color: none;
 }
 
 .review-form-privacy-checkbox:focus
@@ -731,7 +747,7 @@ button:focus {
   outline: 2px solid rgba(0, 0, 255, 0.5);
 }
 
-.privacy-policy-link {
+.user-privacy {
   color: #4d5ae5;
   text-decoration: underline;
 }
@@ -753,4 +769,19 @@ button:focus {
 .review-form-submit-btn:focus {
   color: #fd9222;
   background-color: #fcf1e0;
+}
+.send {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
