@@ -559,9 +559,6 @@ button:focus {
   display: flex;
 }
 
-.footer-form-container {
-}
-
 .subscribe-form-field-label {
   gap: 24px;
 }
