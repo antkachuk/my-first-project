@@ -557,6 +557,7 @@ button:focus {
 
 .footer-form {
   display: flex;
+  gap: 24px;
 }
 
 .subscribe-form-field-label {
@@ -661,6 +662,9 @@ button:focus {
   align-items: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-close-btn-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -699,6 +703,10 @@ button:focus {
 
 .review-form-field-wrapper {
   margin-bottom: 8px;
+  margin-bottom: 16px;
+}
+.review-form-field-wrapper :nth-child(4) {
+  margin-bottom: 16px;
 }
 
 .review-form-field-label {
