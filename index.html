@@ -320,7 +320,6 @@
                   <img
                     src="./images/portfolio/desktop/banking-app.jpg"
                     alt="banking-app"
-                    width="360"
                 /></picture>
                 <p class="description">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -329,8 +328,8 @@
                 </p>
               </div>
               <div class="App">
-                <h3 class="title-three">Banking App</h3>
-                <p class="text">App</p>
+                <h3 class="title-three-portfolio">Banking App</h3>
+                <p class="text-portfolio">App</p>
               </div>
             </li>
             <li class="pics">
@@ -358,7 +357,6 @@
                   <img
                     src="./images/portfolio/desktop/cashless-payment.jpg"
                     alt="cashless"
-                    width="360"
                 /></picture>
                 <p class="description">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -367,8 +365,8 @@
                 </p>
               </div>
               <div class="App">
-                <h3 class="title-three">Cashless Payment</h3>
-                <p class="text">Marketing</p>
+                <h3 class="title-three-portfolio">Cashless Payment</h3>
+                <p class="text-portfolio">Marketing</p>
               </div>
             </li>
             <li class="pics">
@@ -396,7 +394,6 @@
                   <img
                     src="./images/portfolio/desktop/meditation-app.jpg"
                     alt="meditation-app"
-                    width="360"
                 /></picture>
                 <p class="description">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -405,8 +402,8 @@
                 </p>
               </div>
               <div class="App">
-                <h3 class="title-three">Meditation App</h3>
-                <p class="text">App</p>
+                <h3 class="title-three-portfolio">Meditation App</h3>
+                <p class="text-portfolio">App</p>
               </div>
             </li>
             <li class="pics">
@@ -434,7 +431,6 @@
                   <img
                     src="./images/portfolio/desktop/taxi-service.jpg"
                     alt="taxi-service"
-                    width="360"
                 /></picture>
                 <p class="description">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -443,17 +439,36 @@
                 </p>
               </div>
               <div class="App">
-                <h3 class="title-three">Taxi Service</h3>
-                <p class="text">Marketing</p>
+                <h3 class="title-three-portfolio">Taxi Service</h3>
+                <p class="text-portfolio">Marketing</p>
               </div>
             </li>
             <li class="pics">
               <div class="overlay">
-                <img
-                  src="./images/portfolio/screen-illustrations.jpg"
-                  alt="screen-illustrations"
-                  width="360"
-                />
+                <picture
+                  ><source
+                    srcset="
+                      ../my-first-project/images/portfolio/desktop/screen-illustrations.jpg   1x,
+                      ../my-first-project/images/portfolio/desktop/screen-illustrations-x.jpg 2x
+                    "
+                    media="(min-width: 1158px)" />
+                  <source
+                    srcset="
+                      ../my-first-project/images/portfolio/tablet/screen.jpg   1x,
+                      ../my-first-project/images/portfolio/tablet/screen-x.jpg 2x
+                    "
+                    media="(min-width: 756px)" />
+                  <source
+                    srcset="
+                      ../my-first-project/images/portfolio/mobile/screen.jpg   1x,
+                      ../my-first-project/images/portfolio/mobile/screen-x.jpg 2x
+                    "
+                    media="(max-width: 755px)" />
+
+                  <img
+                    src="./images/portfolio/desktop/screen-illustrations.jpg"
+                    alt="screen"
+                /></picture>
                 <p class="description">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -461,17 +476,36 @@
                 </p>
               </div>
               <div class="App">
-                <h3 class="title-three">Screen Illustrations</h3>
-                <p class="text">Design</p>
+                <h3 class="title-three-portfolio">Screen Illustrations</h3>
+                <p class="text-portfolio">Design</p>
               </div>
             </li>
             <li class="pics">
               <div class="overlay">
-                <img
-                  src="./images/portfolio/online-courses.jpg"
-                  alt="online-courses"
-                  width="360"
-                />
+                <picture
+                  ><source
+                    srcset="
+                      ../my-first-project/images/portfolio/desktop/online-courses.jpg   1x,
+                      ../my-first-project/images/portfolio/desktop/online-courses-x.jpg 2x
+                    "
+                    media="(min-width: 1158px)" />
+                  <source
+                    srcset="
+                      ../my-first-project/images/portfolio/tablet/online.jpg   1x,
+                      ../my-first-project/images/portfolio/tablet/online-x.jpg 2x
+                    "
+                    media="(min-width: 756px)" />
+                  <source
+                    srcset="
+                      ../my-first-project/images/portfolio/mobile/online.jpg   1x,
+                      ../my-first-project/images/portfolio/mobile/online-x.jpg 2x
+                    "
+                    media="(max-width: 755px)" />
+
+                  <img
+                    src="./images/portfolio/desktop/online-courses.jpg"
+                    alt="online-courses"
+                /></picture>
                 <p class="description">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -479,8 +513,8 @@
                 </p>
               </div>
               <div class="App">
-                <h3 class="title-three">Online Courses</h3>
-                <p class="text">Marketing</p>
+                <h3 class="title-three-portfolio">Online Courses</h3>
+                <p class="text-portfolio">Marketing</p>
               </div>
             </li>
           </ul>
@@ -656,10 +690,11 @@
                   height="8"
                 >
                   <use href="./images/icons.svg#icon-Vector"></use>
-                </svg>
-              </span>
-              I accept the terms and conditions of the
-              <a class="user-privacy" href="">Privacy Policy</a>
+                </svg> </span
+              ><span class="policy">
+                I accept the terms and conditions of the
+                <a class="user-privacy" href="">Privacy Policy</a></span
+              >
             </label>
           </div>
           <button class="send" type="button">Send</button>
